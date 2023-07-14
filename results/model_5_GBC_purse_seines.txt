@@ -1,0 +1,28 @@
+model_5
+GBC
+purse_seines
+course_norm_sin_cos + window_1800 + window_3600 + window_10800 + window_21600 + window_43200
+
+==================================================
+
+Best parameters for model_5_GBC_purse_seines are: 
+ {'learning_rate': 0.2, 'max_depth': 5, 'min_samples_leaf': 20}
+
+==================================================
+(data) | Accuracy | Recall | F1-Score |
+--------------------------------------------------
+train | 0.99970 | 1.00000 | 0.99970 |
+cross | 0.81600 | 0.63475 | 0.43765 |
+==================================================
+
+top features for best classifier:
+speed
+measure_speedstddev_10800
+measure_speedstddev_10800_log
+measure_count_43200
+measure_daylightavg_3600
+measure_speedavg_1800
+measure_speedavg_10800
+measure_speedavg_3600
+measure_count_21600
+measure_courseavg_43200

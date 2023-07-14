@@ -1,0 +1,28 @@
+model_2
+RF
+purse_seines
+course_norm_sin_cos + window_1800 + window_3600
+
+==================================================
+
+Best parameters for model_2_RF_purse_seines are: 
+ {'max_features': 4, 'min_samples_split': 15, 'n_estimators': 50}
+
+==================================================
+(data) | Accuracy | Recall | F1-Score |
+--------------------------------------------------
+train | 0.98750 | 0.99340 | 0.98757 |
+cross | 0.83320 | 0.72163 | 0.49393 |
+==================================================
+
+top features for best classifier:
+measure_speedavg_1800
+speed
+measure_speedavg_3600
+measure_speedstddev_3600
+measure_coursestddev_3600
+measure_coursestddev_1800
+measure_coursestddev_3600_log
+measure_speedstddev_3600_log
+measure_count_1800
+measure_count_3600

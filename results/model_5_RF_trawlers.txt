@@ -1,0 +1,28 @@
+model_5
+RF
+trawlers
+course_norm_sin_cos + window_1800 + window_3600 + window_10800 + window_21600 + window_43200
+
+==================================================
+
+Best parameters for model_5_RF_trawlers are: 
+ {'max_features': 6, 'min_samples_split': 15, 'n_estimators': 50}
+
+==================================================
+(data) | Accuracy | Recall | F1-Score |
+--------------------------------------------------
+train | 0.97500 | 0.98980 | 0.97536 |
+cross | 0.92220 | 0.93060 | 0.91494 |
+==================================================
+
+top features for best classifier:
+measure_speedavg_1800
+speed
+measure_speedavg_21600
+measure_speedavg_10800
+measure_speedavg_3600
+measure_speedavg_43200
+measure_speedstddev_43200
+measure_speedstddev_21600_log
+measure_speedstddev_21600
+measure_speedstddev_10800

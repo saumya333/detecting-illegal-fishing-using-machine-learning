@@ -1,0 +1,28 @@
+model_1
+RF
+longliners
+course_norm_sin_cos + window_1800
+
+==================================================
+
+Best parameters for model_1_RF_longliners are: 
+ {'max_features': 3, 'min_samples_split': 15, 'n_estimators': 50}
+
+==================================================
+(data) | Accuracy | Recall | F1-Score |
+--------------------------------------------------
+train | 0.94050 | 0.95420 | 0.94130 |
+cross | 0.79700 | 0.80012 | 0.83509 |
+==================================================
+
+top features for best classifier:
+measure_speedavg_1800
+speed
+measure_speedstddev_1800
+measure_speedstddev_1800_log
+measure_coursestddev_1800_log
+measure_coursestddev_1800
+measure_courseavg_1800
+measure_cos_course
+measure_count_1800
+measure_sin_course

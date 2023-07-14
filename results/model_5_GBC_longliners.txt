@@ -1,0 +1,28 @@
+model_5
+GBC
+longliners
+course_norm_sin_cos + window_1800 + window_3600 + window_10800 + window_21600 + window_43200
+
+==================================================
+
+Best parameters for model_5_GBC_longliners are: 
+ {'learning_rate': 0.2, 'max_depth': 5, 'min_samples_leaf': 20}
+
+==================================================
+(data) | Accuracy | Recall | F1-Score |
+--------------------------------------------------
+train | 0.98220 | 0.98960 | 0.98233 |
+cross | 0.88500 | 0.90473 | 0.90997 |
+==================================================
+
+top features for best classifier:
+measure_speedstddev_43200_log
+measure_speedstddev_43200
+measure_speedavg_43200
+measure_coursestddev_43200_log
+measure_speedavg_1800
+measure_speedavg_21600
+measure_coursestddev_43200
+measure_speedavg_10800
+measure_speedavg_3600
+speed

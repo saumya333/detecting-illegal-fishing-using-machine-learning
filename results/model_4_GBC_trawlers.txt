@@ -1,0 +1,28 @@
+model_4
+GBC
+trawlers
+course_norm_sin_cos + window_1800 + window_3600 + window_10800 + window_21600
+
+==================================================
+
+Best parameters for model_4_GBC_trawlers are: 
+ {'learning_rate': 0.2, 'max_depth': 5, 'min_samples_leaf': 20}
+
+==================================================
+(data) | Accuracy | Recall | F1-Score |
+--------------------------------------------------
+train | 0.96220 | 0.98340 | 0.96298 |
+cross | 0.91860 | 0.93194 | 0.91146 |
+==================================================
+
+top features for best classifier:
+speed
+measure_speedavg_1800
+measure_speedavg_3600
+measure_speedavg_21600
+measure_speedavg_10800
+measure_speedstddev_21600_log
+measure_count_21600
+measure_courseavg_3600
+measure_courseavg_21600
+measure_cos_course
